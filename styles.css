@@ -1,0 +1,183 @@
+body {
+    font-family: 'Lucida Console', Monospace;
+    color: #ffffff;
+    background-color: #220228;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: #000653;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width:100%;
+    position: fixed;
+    top: 0;
+}
+
+.logo h1 {
+    color: #18075ace;
+    margin: 0;
+    margin-top: auto;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #1a86ce;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+}
+
+section {
+    padding: 100px;
+    text-align: center; /* Kısımları ortala */
+    max-width: 900px; /* Maksimum içerik genişliği */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    color: #1a86ce;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #1a86ce;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project h3 {
+    color: #1a86ce;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    color: #1a86ce;
+}
+
+.skill-meter {
+    background-color: #fd11aace;
+    height: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #1a86ce;
+}
+
+.skill p {
+    margin: 0;
+}
+
+.a_baglanti {
+    color: #1a86ce;
+}
+
+#mail {
+    width: 50px;
+    height: auto;
+}
+
+#linkedin {
+    width: 50px;
+    height: auto;
+}
+
+#github {
+    width: 50px;
+    height: auto;
+}
+
+footer {
+    background-color: #f30ebace;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width:100%;
+}
+
+.form-group {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    color: #1a86ce;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1a86ce;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #1a86ce;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #e009b2;
+}
+
+hr {
+    width: 300px;
+    border: 2px solid #1a86ce; 
+    margin: 0;
+}
+
+section#about {
+    margin-top: 150px;
+}
